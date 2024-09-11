@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: razorpay-integration
+  datasource:
+    url: jdbc:mysql://localhost:3306/razorpay
+    username: root
+    password: $Aurabh123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQL8Dialect
+
+server:
+  port: 8080
+
+razorpay:
+  key: rzp_test_2YAw4YmAy7p43B
+  secret: aYSPPWdlooAFTk9B1W1PDogO
